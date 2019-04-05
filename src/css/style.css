@@ -1,0 +1,167 @@
+.page {
+    display: flex;
+    margin: 1% auto;
+    max-width: 1200px;
+    height: 1000px;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 12pt;
+    align-content: center;
+}
+.column1 {
+    background-color: #fff777;
+    width: 44%;
+    padding: 2%;
+    margin: 1% auto;
+}
+.column2 {
+    background-color:lightpink;
+    width: 56%;
+    padding: 2%;
+    margin: 1% auto;
+}
+div .photo-name {
+    text-align: center;
+    margin-bottom: 9%;
+}
+.photo-name .header {
+    margin: 0;
+  
+}
+.header .name {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.header .surname {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.photo-name .profession {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.column1 .block  {
+    margin-bottom: 10%;
+    /*border:1px solid #3f6fb6;*/
+}
+.column2 .block {
+    margin-bottom: 4%;
+    /*border:1px solid #3f6fb6;*/
+}
+.block-skills{
+    border:1px solid #3f6fb6;
+    height: 20%;
+}
+.block-header {
+    display: flex;   
+    width: 90%;
+    align-items: center;
+    
+}
+.block-text {
+    margin: 2%;   
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    color: #3f6fb6;
+
+}
+.text {
+   font-size: 8pt;  
+}
+
+.text1 {
+    font-size: 10pt;
+    color: #3f6fb6;  
+    font-weight: bold; 
+}
+.text2 {
+    font-size: 10pt;
+}
+.contact1 {
+    display: inline-block;
+    width: 20%;
+
+}
+.contact2 {
+    display: inline-block;    
+    width: 75%;    
+}
+.skills {
+    display: block;
+    /*background-color: #fff;*/
+    text-align: center;
+}
+.svg-block {
+    /*background-color: pink;*/
+    margin-top: 0%;
+    height: 2%;
+    width: 80%;
+    padding: 0 10% 0 10%;
+    
+}
+.list1-header1 {
+    color: #3f6fb6;
+    font-weight: bold;
+    margin-right: 2%;
+}
+.exp-descript {
+    margin-top: 0;
+    font-size: 8pt;
+}
+.list1-header2 {
+    
+    font-weight: bold;
+    margin-right: 2%;
+}
+.block2 {
+    display: inline-block;
+    /*background-color: white;*/
+    width: 48%;
+    margin-left: 1%;
+}
+.block2 p {
+    align-content: center;
+    margin: 2% 0;
+}
+.line-photoshop {
+    width: 90%;
+    height: 10px;    
+    background-image: 
+    linear-gradient(to right, #3f6fb6 90%, #e6e6e6 90%);
+}
+.line-illustrator {
+    width: 90%;
+    height: 10px; 
+    background-image:
+    linear-gradient(to right, #3f6fb6 80%, #e6e6e6 80%);
+}
+.line-indesign {
+    width: 90%;
+    height: 10px; 
+    background-image:
+    linear-gradient(to right, #3f6fb6 70%, #e6e6e6 70%);
+    margin-bottom: 5%;
+}
+.line-dreamweaver {
+    width: 90%;
+    height: 10px;
+    background-image:
+            linear-gradient(to right, #3f6fb6 85%, #e6e6e6 85%);
+}
+.line-effects {
+    width: 90%;
+    height: 10px;
+    background-image:
+            linear-gradient(to right, #3f6fb6 65%, #e6e6e6 65%);
+}
+.line-htmlcss {
+    width: 90%;
+    height: 10px;
+    background-image:
+            linear-gradient(to right, #3f6fb6 90%, #e6e6e6 90%);
+
+}
