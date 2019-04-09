@@ -6,229 +6,216 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <title>site</title>
+    <title>CV</title>
 </head>
 
 <body>
 <div class="page">
     <div class="column1">
-        <div class="photo-name">
-            <img src="img/cat.jpg" width="160" alt="Ваше фото">
-            <h1 class="header">
-                <span class="name">тесла!</span>
-                <br><span class="surname">котик</span>
-            </h1>
-            <span class="profession">делает кусь-кусь</span>
+        <div class="block-photo-name">
+            <img class="block-photo-name__photo" src="img/cat.jpg" width="160" alt="Ваше фото"/>
+            <p class="block-photo-name__name">NAME HERE</p>
+            <p class="block-photo-name__surname">SURNAME</p>
+            <p class="block-photo-name__profession">GRAPHIC DESIGNER</p>
         </div>
         <!-- PROFILE -->
-        <div class="block">
+        <div class="block block-profile">
             <div class="block-header">
-                <div class="icon">
-                    <img src="img/PROFILE ICON.png" width="40" alt="profile">
-                </div>
-                <span class="block-text">PROFILE</span>
-                <div class="header">
-                    <svg width="117%" height="10">
-                        <line x1="0" y1="50%" x2="100%" y2="50%" stroke="#3f6fb6" stroke-width="5"/>
-                    </svg>
-                </div>
+                <img src="img/PROFILE ICON.png" width="50" alt="profile">
+                <span class="block-title">PROFILE</span>
+                <svg width="100%" height="10">
+                    <line x1="0%" y1="50%" x2="100%" y2="50%" stroke="#3f6fb6" stroke-width="5px"/>
+                </svg>
             </div>
-            <span class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-                    dolor. Aenean
-                    massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+            <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                    dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
                     quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
                     Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-                    imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+                    imperdiet a, venenatis vitae, justo. Nullam dictum felis eu <b>pede mollis pretium. Integer tincidunt.
                     Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
                     porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
-                    feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
-                </span>
+                    feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</b>
+            </p>
         </div>
         <!-- СONTACT -->
-        <div class="block">
+        <div class="block-contact">
             <div class="block-header">
-                <div class="icon">
-                    <img src="img/PHONE ICON.png" width="40" alt="profile">
-                </div>
-                <span class="block-text">CONTACT</span>
-                <div class="header">
-                    <svg width="117%" height="10">
-                        <line x1="0" y1="50%" x2="100%" y2="50%" stroke="#3f6fb6" stroke-width="5"/>
-                    </svg>
-                </div>
-            </div>
-            <div class="contact1">
-                <p class="text1">ADDRESS</p>
-                <p class="text1">E_MAIL</p>
-                <p class="text1">PHONE</p>
-                <p class="text1">WEBSITE</p>
-            </div>
-            <div class="contact2">
-                <p class="text2">Main Street City</p>
-                <p class="text2">contact@mail.ru</p>
-                <p class="text2">555-555</p>
-                <p class="text2">website.com</p>
-            </div>
-        </div>
-        <!-- SKILLS -->
-        <div class="block-header">
-            <div class="icon">
-                <img src="img/SKILLS ICON.png" width="40" alt="profile">
-            </div>
-            <span class="block-text">SKILLS</span>
-            <div class="header">
-                <svg width="117%" height="10">
+                <img src="img/PHONE ICON.png" width="50" alt="profile">
+                <span class="block-title">CONTACT</span>
+                <svg width="100%" height="10">
                     <line x1="0" y1="50%" x2="100%" y2="50%" stroke="#3f6fb6" stroke-width="5"/>
                 </svg>
             </div>
+            <div class="contacts">
+                <div class="contact-col-1">ADDRESS</div>
+                <div class="contact-col-2">Main Street, City</div>
+            </div>
+            <div class="contacts">
+                <div class="contact-col-1">E-MAIL</div>
+                <div class="contact-col-2">contact@domain.com
+                </div>
+            </div>
+            <div class="contacts">
+                <div class="contact-col-1">PHONE</div>
+                <div class="contact-col-2">555-555-555</div>
+            </div>
+            <div class="contacts">
+                <div class="contact-col-1">WEBSITE</div>
+                <div class="contact-col-2">www.yourweb.com</div>
+            </div>
         </div>
-        <div class="skills">CREATIVE</div>
-        <svg class="svg-block">
-            <g fill="#3f6fb6">
-                <circle r="2%" cx="6%" cy="50%"/>
-                <circle r="2%" cx="14%" cy="50%"/>
-                <circle r="2%" cx="22%" cy="50%"/>
-                <circle r="2%" cx="30%" cy="50%"/>
-                <circle r="2%" cx="38%" cy="50%"/>
-                <circle r="2%" cx="46%" cy="50%"/>
-                <circle r="2%" cx="54%" cy="50%"/>
-                <circle r="2%" cx="62%" cy="50%"/>
-                <circle r="2%" cx="70%" cy="50%"/>
-                <circle r="2%" cx="78%" cy="50%" fill="#e6e6e6"/>
-                <circle r="2%" cx="86%" cy="50%" fill="#e6e6e6"/>
-                <circle r="2%" cx="94%" cy="50%" fill="#e6e6e6"/>
-            </g>
-        </svg>
-        <div class="skills">TEAMWORK</div>
-        <svg class="svg-block">
-            <g fill="#3f6fb6">
-                <circle r="2%" cx="6%" cy="50%"/>
-                <circle r="2%" cx="14%" cy="50%"/>
-                <circle r="2%" cx="22%" cy="50%"/>
-                <circle r="2%" cx="30%" cy="50%"/>
-                <circle r="2%" cx="38%" cy="50%"/>
-                <circle r="2%" cx="46%" cy="50%"/>
-                <circle r="2%" cx="54%" cy="50%"/>
-                <circle r="2%" cx="62%" cy="50%"/>
-                <circle r="2%" cx="70%" cy="50%"/>
-                <circle r="2%" cx="78%" cy="50%"/>
-                <circle r="2%" cx="86%" cy="50%"/>
-                <circle r="2%" cx="94%" cy="50%" fill="#e6e6e6"/>
-            </g>
-        </svg>
-        <div class="skills">INNOVATE</div>
-        <svg class="svg-block">
-            <g fill="#3f6fb6">
-                <circle r="2%" cx="6%" cy="50%"/>
-                <circle r="2%" cx="14%" cy="50%"/>
-                <circle r="2%" cx="22%" cy="50%"/>
-                <circle r="2%" cx="30%" cy="50%"/>
-                <circle r="2%" cx="38%" cy="50%"/>
-                <circle r="2%" cx="46%" cy="50%"/>
-                <circle r="2%" cx="54%" cy="50%" fill="#e6e6e6"/>
-                <circle r="2%" cx="62%" cy="50%" fill="#e6e6e6"/>
-                <circle r="2%" cx="70%" cy="50%" fill="#e6e6e6"/>
-                <circle r="2%" cx="78%" cy="50%" fill="#e6e6e6"/>
-                <circle r="2%" cx="86%" cy="50%" fill="#e6e6e6"/>
-                <circle r="2%" cx="94%" cy="50%" fill="#e6e6e6"/>
-            </g>
-        </svg>
-        <div class="skills">COMMUNICATION</div>
-        <svg class="svg-block">
-            <g fill="#3f6fb6">
-                <circle r="2%" cx="6%" cy="50%"/>
-                <circle r="2%" cx="14%" cy="50%"/>
-                <circle r="2%" cx="22%" cy="50%"/>
-                <circle r="2%" cx="30%" cy="50%"/>
-                <circle r="2%" cx="38%" cy="50%"/>
-                <circle r="2%" cx="46%" cy="50%"/>
-                <circle r="2%" cx="54%" cy="50%"/>
-                <circle r="2%" cx="62%" cy="50%"/>
-                <circle r="2%" cx="70%" cy="50%"/>
-                <circle r="2%" cx="78%" cy="50%"/>
-                <circle r="2%" cx="86%" cy="50%"/>
-                <circle r="2%" cx="94%" cy="50%" fill="#e6e6e6"/>
-            </g>
-        </svg>
+        <!-- SKILLS -->
+        <div class="block-skills">
+            <div class="block-header">
+                <img src="img/SKILLS ICON.png" width="50" alt="profile">
+                <span class="block-title">SKILLS</span>
+                <svg width="100%" height="10">
+                    <line x1="0" y1="50%" x2="100%" y2="50%" stroke="#3f6fb6" stroke-width="5"/>
+                </svg>
+            </div>
+            <div class="skills">
+                <div class="skills_text">CREATIVE</div>
+                <svg class="svg-block">
+                    <g fill="#3f6fb6">
+                        <circle r="5px" cx="6%" cy="50%"/>
+                        <circle r="5px" cx="14%" cy="50%"/>
+                        <circle r="5px" cx="22%" cy="50%"/>
+                        <circle r="5px" cx="30%" cy="50%"/>
+                        <circle r="5px" cx="38%" cy="50%"/>
+                        <circle r="5px" cx="46%" cy="50%"/>
+                        <circle r="5px" cx="54%" cy="50%"/>
+                        <circle r="5px" cx="62%" cy="50%"/>
+                        <circle r="5px" cx="70%" cy="50%"/>
+                        <circle r="5px" cx="78%" cy="50%" fill="#e6e6e6"/>
+                        <circle r="5px" cx="86%" cy="50%" fill="#e6e6e6"/>
+                        <circle r="5px" cx="94%" cy="50%" fill="#e6e6e6"/>
+                    </g>
+                </svg>
+                <div class="skills_text">TEAMWORK</div>
+                <svg class="svg-block">
+                    <g fill="#3f6fb6">
+                        <circle r="5px" cx="6%" cy="50%"/>
+                        <circle r="5px" cx="14%" cy="50%"/>
+                        <circle r="5px" cx="22%" cy="50%"/>
+                        <circle r="5px" cx="30%" cy="50%"/>
+                        <circle r="5px" cx="38%" cy="50%"/>
+                        <circle r="5px" cx="46%" cy="50%"/>
+                        <circle r="5px" cx="54%" cy="50%"/>
+                        <circle r="5px" cx="62%" cy="50%"/>
+                        <circle r="5px" cx="70%" cy="50%" fill="#e6e6e6"/>
+                        <circle r="5px" cx="78%" cy="50%" fill="#e6e6e6"/>
+                        <circle r="5px" cx="86%" cy="50%" fill="#e6e6e6"/>
+                        <circle r="5px" cx="94%" cy="50%" fill="#e6e6e6"/>
+                    </g>
+                </svg>
+                <div class="skills_text">INNOVATE</div>
+                <svg class="svg-block">
+                    <g fill="#3f6fb6">
+                        <circle r="5px" cx="6%" cy="50%"/>
+                        <circle r="5px" cx="14%" cy="50%"/>
+                        <circle r="5px" cx="22%" cy="50%"/>
+                        <circle r="5px" cx="30%" cy="50%"/>
+                        <circle r="5px" cx="38%" cy="50%"/>
+                        <circle r="5px" cx="46%" cy="50%"/>
+                        <circle r="5px" cx="54%" cy="50%" fill="#e6e6e6"/>
+                        <circle r="5px" cx="62%" cy="50%" fill="#e6e6e6"/>
+                        <circle r="5px" cx="70%" cy="50%" fill="#e6e6e6"/>
+                        <circle r="5px" cx="78%" cy="50%" fill="#e6e6e6"/>
+                        <circle r="5px" cx="86%" cy="50%" fill="#e6e6e6"/>
+                        <circle r="5px" cx="94%" cy="50%" fill="#e6e6e6"/>
+                    </g>
+                </svg>
+                <div class="skills_text">COMMUNICATION</div>
+                <svg class="svg-block">
+                    <g fill="#3f6fb6">
+                        <circle r="5px" cx="6%" cy="50%"/>
+                        <circle r="5px" cx="14%" cy="50%"/>
+                        <circle r="5px" cx="22%" cy="50%"/>
+                        <circle r="5px" cx="30%" cy="50%"/>
+                        <circle r="5px" cx="38%" cy="50%"/>
+                        <circle r="5px" cx="46%" cy="50%"/>
+                        <circle r="5px" cx="54%" cy="50%"/>
+                        <circle r="5px" cx="62%" cy="50%"/>
+                        <circle r="5px" cx="70%" cy="50%"/>
+                        <circle r="5px" cx="78%" cy="50%"/>
+                        <circle r="5px" cx="86%" cy="50%" fill="#e6e6e6"/>
+                        <circle r="5px" cx="94%" cy="50%" fill="#e6e6e6"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
     </div>
     <!-- СOLUMN-2 -->
     <div class="column2">
         <!-- EDUCATION -->
-        <div class="block">
+        <div class="block-education">
             <div class="block-header">
-                <div class="icon">
-                    <img src="img/EDUCATION-ICON2.png" width="40" alt="profile">
-                </div>
-                <span class="block-text">EDUCATION</span>
-                <div class="header">
-                    <svg width="117%" height="10">
-                        <line x1="0" y1="50%" x2="100%" y2="50%" stroke="#3f6fb6" stroke-width="5"/>
-                    </svg>
-                </div>
+                <img src="img/EDUCATION-ICON.png" width="50" alt="profile">
+                <span class="block-title">EDUCATION</span>
+                <svg width="100%" height="10">
+                    <line x1="0" y1="50%" x2="100%" y2="50%" stroke="#3f6fb6" stroke-width="5"/>
+                </svg>
             </div>
             <ul>
-                <li><span class="list1-header1">MASTER DEGREE</span>// Feb 2011 - Jun 2014
+                <li><span class="education-list-header">MASTER DEGREE</span>// Feb 2011 - Jun 2014
                     <br>UNVERSITY NAME
-                    <p class="exp-descript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus
+                    <p class="exp-descript text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus
                         doloribus rerum commodi, inventore voluptatum illo ipsam molestiae? Veritatis omnis non nemo
                         voluptate, officiis vero cupiditate. Quo consequuntur dolorum corrupti odit. Laudantium
                         rerum asperiores quae inventore et quas minus dolores.</p>
                 </li>
-                <li><span class="list1-header1">MASTER DEGREE</span>// Feb 2011 - Jun 2014
+                <li><span class="education-list-header">MASTER DEGREE</span>// Feb 2011 - Jun 2014
                     <br>UNVERSITY NAME
-                    <p class="exp-descript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus
+                    <p class="exp-descript text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus
                         doloribus rerum commodi, inventore voluptatum illo ipsam molestiae? Veritatis omnis non nemo
                         voluptate, officiis vero cupiditate. Quo consequuntur dolorum corrupti odit. Laudantium
                         rerum asperiores quae inventore et quas minus dolores.</p>
                 </li>
-                <li><span class="list1-header1">MASTER DEGREE</span>// Feb 2011 - Jun 2014
+                <li><span class="education-list-header">MASTER DEGREE</span>// Feb 2011 - Jun 2014
                     <br>UNVERSITY NAME
-                    <p class="exp-descript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus
+                    <p class="exp-descript text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus
+                        doloribus rerum commodi, inventore voluptatum illo ipsam molestiae? Veritatis omnis non nemo
+                        voluptate,voluptate, officiis vero cupiditate. Quo consequuntur dolorum corrupti odit.voluptate,
+                        officiis vero cupiditate. Quo consequuntur dolorum corrupti odit. officiis vero cupiditate. Quo
+                        consequuntur dolorum corrupti odit. Laudantium
+                        rerum asperiores quae inventore et quas minus dolores.</p>
+                </li>
+                <li><span class="education-list-header">MASTER DEGREE</span>// Feb 2011 - Jun 2014
+                    <br>UNVERSITY NAME
+                    <p class="exp-descript text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus
                         doloribus rerum commodi, inventore voluptatum illo ipsam molestiae? Veritatis omnis non nemo
                         voluptate, officiis vero cupiditate. Quo consequuntur dolorum corrupti odit. Laudantium
                         rerum asperiores quae inventore et quas minus dolores.</p>
                 </li>
-                <li><span class="list1-header1">MASTER DEGREE</span>// Feb 2011 - Jun 2014
-                    <br>UNVERSITY NAME
-                    <p class="exp-descript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus
-                        doloribus rerum commodi, inventore voluptatum illo ipsam molestiae? Veritatis omnis non nemo
-                        voluptate, officiis vero cupiditate. Quo consequuntur dolorum corrupti odit. Laudantium
-                        rerum asperiores quae inventore et quas minus dolores.</p>
-                </li>
-
             </ul>
         </div>
         <!-- EXPERIENCE -->
-        <div class="block">
+        <div class="block-experience">
             <div class="block-header">
-                <div class="icon">
-                    <img src="img/EXPERIENCE-ICON.png" width="40" alt="profile">
-                </div>
-                <span class="block-text">EXPERIENCE</span>
-                <div class="header">
-                    <svg width="117%" height="10">
-                        <line x1="0" y1="50%" x2="100%" y2="50%" stroke="#3f6fb6" stroke-width="5"/>
-                    </svg>
-                </div>
+                <img src="img/EXPERIENCE-ICON.png" width="50" alt="profile">
+                <span class="block-title">EXPERIENCE</span>
+                <svg width="100%" height="10">
+                    <line x1="0" y1="50%" x2="100%" y2="50%" stroke="#3f6fb6" stroke-width="5"/>
+                </svg>
             </div>
             <ul>
-                <li><span class="list1-header2">COMPANY NAME</span>// Feb 2011 - Jun 2014
+                <li><span class="experience-list-header">COMPANY NAME</span>// Feb 2011 - Jun 2014
                     <br>YOUR JOB HERE
-                    <p class="exp-descript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus
+                    <p class="exp-descript text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus
                         doloribus rerum commodi, inventore voluptatum illo ipsam molestiae? Veritatis omnis non nemo
                         voluptate, officiis vero cupiditate. Quo consequuntur dolorum corrupti odit. Laudantium
                         rerum asperiores quae inventore et quas minus dolores.</p>
                 </li>
-                <li><span class="list1-header2">COMPANY NAME</span>// Feb 2011 - Jun 2014
+                <li><span class="experience-list-header">COMPANY NAME</span>// Feb 2011 - Jun 2014
                     <br>YOUR JOB HERE
-                    <p class="exp-descript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus
+                    <p class="exp-descript text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus
                         doloribus rerum commodi, inventore voluptatum illo ipsam molestiae? Veritatis omnis non nemo
                         voluptate, officiis vero cupiditate. Quo consequuntur dolorum corrupti odit. Laudantium
                         rerum asperiores quae inventore et quas minus dolores.</p>
                 </li>
-                <li><span class="list1-header2">COMPANY NAME</span>// Feb 2011 - Jun 2014
+                <li><span class="experience-list-header">COMPANY NAME</span>// Feb 2011 - Jun 2014
                     <br>YOUR JOB HERE
-                    <p class="exp-descript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus
+                    <p class="exp-descript text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed possimus
                         doloribus rerum commodi, inventore voluptatum illo ipsam molestiae? Veritatis omnis non nemo
                         voluptate, officiis vero cupiditate. Quo consequuntur dolorum corrupti odit. Laudantium
                         rerum asperiores quae inventore et quas minus dolores.</p>
@@ -236,28 +223,15 @@
             </ul>
         </div>
         <!-- SOFTWARE -->
-        <div class="block">
+        <div class="block-software">
             <div class="block-header">
-                <div class="icon">
-                    <img src="img/SOFTWARE-ICON.png" width="40" alt="profile">
-                </div>
-                <span class="block-text">SOFTWARE</span>
-                <div class="header">
-                    <svg width="117%" height="10">
-                        <line x1="0" y1="50%" x2="100%" y2="50%"
-                              stroke="#3f6fb6" stroke-width="5"/>
-                    </svg>
-                </div>
+                <img src="img/SOFTWARE-ICON.png" width="50" alt="profile">
+                <span class="block-title">SOFTWARE</span>
+                <svg width="100%" height="10">
+                    <line x1="0" y1="50%" x2="100%" y2="50%" stroke="#3f6fb6" stroke-width="5"/>
+                </svg>
             </div>
-            <div class="block2">
-                <p>PHOTOSHOP</p>
-                <div class="line-photoshop"></div>
-                <p>ILLUSTRATOR</p>
-                <div class="line-illustrator"></div>
-                <p>INDESIGN</p>
-                <div class="line-indesign"></div>
-            </div>
-            <div class="block2">
+            <div class="soft-skills">
                 <p>DREAMWEAVER</p>
                 <div class="line-dreamweaver"></div>
                 <p>AFTER EFFECTS</p>
@@ -265,10 +239,16 @@
                 <p>HTML&CSS3</p>
                 <div class="line-htmlcss"></div>
             </div>
+            <div class="soft-skills">
+                <p>PHOTOSHOP</p>
+                <div class="line-photoshop"></div>
+                <p>ILLUSTRATOR</p>
+                <div class="line-illustrator"></div>
+                <p>INDESIGN</p>
+                <div class="line-indesign"></div>
+            </div>
         </div>
     </div>
 </div>
-
 </body>
-
 </html>

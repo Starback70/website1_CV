@@ -1,109 +1,106 @@
 .page {
     display: flex;
-    margin: 1% auto;
-    max-width: 1200px;
-    height: 1000px;
+    max-width: 1920px;
+    min-width: 500px;
     font-family: "Myriad Pro", sans-serif;
-    font-size: 12pt;
-    align-content: center;
 }
 .column1 {
-    background-color: #fff777;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 44%;
-    padding: 2%;
-    margin: 1% auto;
+    padding: 4% 3% 5% 5%;
 }
 .column2 {
-    background-color:lightpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 56%;
-    padding: 2%;
-    margin: 1% auto;
+    padding: 4% 5% 5% 3%;
+    align-items: stretch;
 }
-div .photo-name {
-    text-align: center;
-    margin-bottom: 9%;
-}
-.photo-name .header {
-    margin: 0;
-  
-}
-.header .name {
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: normal;
-}
-.header .surname {
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.photo-name .profession {
-    font-family: "Myriad Pro", sans-serif;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.column1 .block  {
-    margin-bottom: 10%;
-    /*border:1px solid #3f6fb6;*/
-}
-.column2 .block {
-    margin-bottom: 4%;
-    /*border:1px solid #3f6fb6;*/
-}
-.block-skills{
-    border:1px solid #3f6fb6;
-    height: 20%;
+.text {
+    font-size: 8pt;
+    text-align: justify;
 }
 .block-header {
-    display: flex;   
-    width: 90%;
+    display: flex;
     align-items: center;
-    
+    padding-bottom: 2%;
 }
-.block-text {
-    margin: 2%;   
-    font-family: "Myriad Pro", sans-serif;
+.block-photo-name {
+    text-align: center;
+    min-height: 350px;
+}
+.block-photo-name__photo {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #3f6fb6;
+    border-radius: 100%;
+    padding: 5px;
+}
+.block-photo-name__name {
+    font-size: 25pt;
+    margin: 1% 0 0 0;
+}
+.block-photo-name__surname {
+    font-size: 30pt;
+    font-weight: bold;
+    margin: 0;
+}
+.block-photo-name__profession {
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 0;
+}
+.block-title {
+    margin-left: 2%;
+    margin-right: 2%;
     font-weight: bold;
     font-size: 20pt;
     color: #3f6fb6;
-
 }
-.text {
-   font-size: 8pt;  
+.block-profile {
+    min-height: 270px;
 }
-
-.text1 {
-    font-size: 10pt;
-    color: #3f6fb6;  
-    font-weight: bold; 
+.block-contact {
+    min-height: 250px;
 }
-.text2 {
-    font-size: 10pt;
+.contacts {
+    display: flex;
+    margin-bottom: 15px;
 }
-.contact1 {
-    display: inline-block;
-    width: 20%;
-
+.contact-col-1 {
+    float: left;
+    min-width: 80px;
+    width: 33%;
+    vertical-align: text-top;
 }
-.contact2 {
-    display: inline-block;    
-    width: 75%;    
+.contact-col-2 {
+    float: right;
+    width: 66%;
+}
+.block-skills {
+    min-height: 330px;
 }
 .skills {
     display: block;
-    /*background-color: #fff;*/
     text-align: center;
+    max-width: 250px;
+    padding-left: 25px;
+}
+.skills_text {
+    padding: 8px 10px 4px 10px;
 }
 .svg-block {
-    /*background-color: pink;*/
-    margin-top: 0%;
-    height: 2%;
-    width: 80%;
-    padding: 0 10% 0 10%;
-    
+    height: 15px;
+    max-width: 100%;
+    text-align: center;
 }
-.list1-header1 {
+.block-education {
+    min-height: 500px;
+}
+.education-list-header {
     color: #3f6fb6;
     font-weight: bold;
     margin-right: 2%;
@@ -112,20 +109,28 @@ div .photo-name {
     margin-top: 0;
     font-size: 8pt;
 }
-.list1-header2 {
-    
+.block-experience {
+    min-height: 400px;
+}
+.experience-list-header {
     font-weight: bold;
     margin-right: 2%;
 }
-.block2 {
-    display: inline-block;
-    /*background-color: white;*/
-    width: 48%;
-    margin-left: 1%;
+.block-software {
+    min-height: 300px;
+    white-space: nowrap;
 }
-.block2 p {
+.soft-skills {
+    display: inline-block;
+    width: 48%;
+    max-width: 240px;
+    min-width: 140px;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+.soft-skills p {
     align-content: center;
-    margin: 2% 0;
+    margin: 15px 0 10px 0;
 }
 .line-photoshop {
     width: 90%;
@@ -163,5 +168,7 @@ div .photo-name {
     height: 10px;
     background-image:
             linear-gradient(to right, #3f6fb6 90%, #e6e6e6 90%);
-
+    margin-bottom: 5%;
 }
+
+
